@@ -1,0 +1,37 @@
+.items{
+    position: relative;
+    left: -120px;
+}
+.input{
+    padding-left: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+    padding-left: 42px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 16px;
+    &:focus{
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
+
+.icon_search{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    height: 28px;
+    width: 28px;
+}
+
+.icon_clear{
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    height: 16px;
+    width: 16px;
+    opacity: 0.4;
+    &:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,37 @@
+.root{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    li{
+        border-radius: 15px;
+        a{
+            color: #fe5f1e;
+            height: 40px;
+            width: 40px;
+            border: 1px solid #fe5f1e;
+            border-radius: 15px;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            transition: 0.2s;
+            &:hover{
+                background-color: #fe5f1e;
+                cursor: pointer;
+                color: #fff;
+                border-radius: 15px;
+            }
+        }
+    }
+    :global{
+        .selected{
+            background-color: #fe5f1e;
+            a{
+                color: #fff;
+                border-radius: 15px;
+            }
+
+        }
+    }
+}
