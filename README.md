@@ -1,3 +1,14 @@
+Приветсвую, это проект доставки пиццы & пиццерия.
+Проект ещё в работе, планирую доделать карточки товара, чтобы при клике на размеры пицц , менялась стоимость.
+Также чтобы при клике на карточку открывалась страница с более подробным описанием товара, ингридиетами и т.д.
+Объеты пицц хранятся в MockAPI.
+Стэк:
+1)HTML5,CSS3
+2)JS5
+3)REACT
+4)Redux toolkit
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
