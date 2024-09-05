@@ -7,6 +7,8 @@
 2)JS5
 3)REACT
 4)Redux toolkit
+5)TipeScript
+Сделана небольшая оптимизаци проекта для тренировки (Убраны перерисовки и не нужные запросы при переходах между страницами)
 
 
 # Getting Started with Create React App
